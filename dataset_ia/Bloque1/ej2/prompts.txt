@@ -1,0 +1,12 @@
+PROMPT BÁSICO:
+
+Escribe una función en C++ que resuelva el siguiente problema: Crear una función bool esPrimo(int n) que determine de la forma más eficiente posible si un número entero positivo es primo. Devuelve ÚNICAMENTE el código de la función, junto con los includes necesarios. No incluyas la función main() ni ningún texto o explicación adicional.
+
+PROMPT DETALLADO:
+
+Actúa como un desarrollador Senior experto en C++. Escribe una función óptima y segura en C++ moderno que resuelva el siguiente problema: Crear una función bool esPrimo(int n) que determine de la forma más eficiente posible si un número entero positivo es primo. Debes cumplir estrictamente estos requisitos:
+Asegúrate de que no haya fugas de memoria (memory leaks) ni accesos inválidos.
+Aplica buenas prácticas de código limpio y control de errores.
+Devuelve ÚNICAMENTE el código de la función y los includes necesarios.
+No incluyas la función main() ni ningún texto explicativo.
+

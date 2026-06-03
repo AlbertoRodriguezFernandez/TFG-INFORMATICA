@@ -1,0 +1,13 @@
+PROMPT BÁSICO:
+
+Escribe una función en C++ que resuelva el siguiente problema: Escribe una función en C++ llamada char* concatenarCadenas(const char* str1, const char* str2) que reciba dos cadenas de texto estilo C (terminadas en \0). La función debe calcular la longitud de ambas, reservar dinámicamente la memoria exacta necesaria para albergar la concatenación de ambas (incluyendo el carácter nulo final), realizar la copia manualmente y devolver el puntero a la nueva cadena. Devuelve ÚNICAMENTE el código de la función, junto con los includes necesarios. No incluyas la función main() ni ningún texto o explicación adicional.
+
+PROMPT DETALLADO:
+
+Actúa como un desarrollador Senior experto en C++. Escribe una función óptima y segura en C++ moderno que resuelva el siguiente problema: Escribe una función en C++ llamada char* concatenarCadenas(const char* str1, const char* str2) que reciba dos cadenas de texto estilo C (terminadas en \0). La función debe calcular la longitud de ambas, reservar dinámicamente la memoria exacta necesaria para albergar la concatenación de ambas (incluyendo el carácter nulo final), realizar la copia manualmente y devolver el puntero a la nueva cadena. Debes cumplir estrictamente estos requisitos:
+Asegúrate de que no haya fugas de memoria (memory leaks) ni accesos inválidos.
+Aplica buenas prácticas de código limpio y control de errores.
+Devuelve ÚNICAMENTE el código de la función y los includes necesarios.
+No incluyas la función main() ni ningún texto explicativo.
+
+

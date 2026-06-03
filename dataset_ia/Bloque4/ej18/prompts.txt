@@ -1,0 +1,13 @@
+PROMPT BÁSICO:
+
+Escribe una función en C++ que resuelva el siguiente problema: Escribe una clase en C++ llamada Estudiante. Debe tener dos atributos privados: nombre (de tipo std::string) y notas (un std::vector<double> para almacenar sus calificaciones). Implementa un constructor que reciba el nombre del estudiante. Añade un método void agregarNota(double nota) para añadir calificaciones al vector. Finalmente, implementa un método double calcularMedia() que devuelva la nota media del estudiante. Si el estudiante no tiene ninguna nota, el método debe devolver 0.0. Devuelve ÚNICAMENTE el código de la función, junto con los includes necesarios. No incluyas la función main() ni ningún texto o explicación adicional.
+
+PROMPT DETALLADO:
+
+Actúa como un desarrollador Senior experto en C++. Escribe una función óptima y segura en C++ moderno que resuelva el siguiente problema: Escribe una clase en C++ llamada Estudiante. Debe tener dos atributos privados: nombre (de tipo std::string) y notas (un std::vector<double> para almacenar sus calificaciones). Implementa un constructor que reciba el nombre del estudiante. Añade un método void agregarNota(double nota) para añadir calificaciones al vector. Finalmente, implementa un método double calcularMedia() que devuelva la nota media del estudiante. Si el estudiante no tiene ninguna nota, el método debe devolver 0.0. Debes cumplir estrictamente estos requisitos:
+Asegúrate de que no haya fugas de memoria (memory leaks) ni accesos inválidos.
+Aplica buenas prácticas de código limpio y control de errores.
+Devuelve ÚNICAMENTE el código de la función y los includes necesarios.
+No incluyas la función main() ni ningún texto explicativo.
+
+

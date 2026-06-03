@@ -1,0 +1,18 @@
+#include <stdexcept>
+
+void encontrarMaxMin(const int arr[], int size, int& maximo, int& minimo) {
+    if (arr == nullptr || size <= 0) {
+        throw std::invalid_argument("Array invalido o tamaño no positivo");
+    }
+
+    maximo = arr[0];
+    minimo = arr[0];
+
+    for (int i = 1; i < size; ++i) {
+        if (arr[i] > maximo) {
+            maximo = arr[i];
+        } else if (arr[i] < minimo) {
+            minimo = arr[i];
+        }
+    }
+}

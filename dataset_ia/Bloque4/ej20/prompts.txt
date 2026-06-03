@@ -1,0 +1,13 @@
+PROMPT BÁSICO:
+
+Escribe una función en C++ que resuelva el siguiente problema: Escribe una clase en C++ llamada Termostato que gestione la temperatura de una sala. Debe tener tres atributos privados de tipo double: temperaturaActual, limiteMin y limiteMax. Implementa un constructor Termostato(double inicial, double min, double max) que configure estos valores, asegurando que la temperatura inicial siempre esté dentro del rango especificado (si es menor al mínimo, se ajusta al mínimo; si es mayor, al máximo). Añade los métodos void subirTemperatura(double grados) y void bajarTemperatura(double grados). Estos métodos deben modificar la temperatura actual, pero nunca permitir que supere limiteMax ni caiga por debajo de limiteMin. Añade un método double getTemperaturaActual(). Devuelve ÚNICAMENTE el código de la función, junto con los includes necesarios. No incluyas la función main() ni ningún texto o explicación adicional.
+
+PROMPT DETALLADO:
+
+Actúa como un desarrollador Senior experto en C++. Escribe una función óptima y segura en C++ moderno que resuelva el siguiente problema: Escribe una clase en C++ llamada Termostato que gestione la temperatura de una sala. Debe tener tres atributos privados de tipo double: temperaturaActual, limiteMin y limiteMax. Implementa un constructor Termostato(double inicial, double min, double max) que configure estos valores, asegurando que la temperatura inicial siempre esté dentro del rango especificado (si es menor al mínimo, se ajusta al mínimo; si es mayor, al máximo). Añade los métodos void subirTemperatura(double grados) y void bajarTemperatura(double grados). Estos métodos deben modificar la temperatura actual, pero nunca permitir que supere limiteMax ni caiga por debajo de limiteMin. Añade un método double getTemperaturaActual(). Debes cumplir estrictamente estos requisitos:
+Asegúrate de que no haya fugas de memoria (memory leaks) ni accesos inválidos.
+Aplica buenas prácticas de código limpio y control de errores.
+Devuelve ÚNICAMENTE el código de la función y los includes necesarios.
+No incluyas la función main() ni ningún texto explicativo.
+
+

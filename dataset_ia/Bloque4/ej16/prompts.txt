@@ -1,0 +1,13 @@
+PROMPT BÁSICO:
+
+Escribe una función en C++ que resuelva el siguiente problema: Escribe una clase en C++ llamada Rectangulo que represente una figura geométrica. La clase debe tener dos atributos privados de tipo double: base y altura. Debe incluir un constructor para inicializar estos atributos, así como los métodos getters y setters correspondientes. Por último, implementa dos métodos públicos: double calcularArea() y double calcularPerimetro(). Devuelve ÚNICAMENTE el código de la función, junto con los includes necesarios. No incluyas la función main() ni ningún texto o explicación adicional.
+
+PROMPT DETALLADO:
+
+Actúa como un desarrollador Senior experto en C++. Escribe una función óptima y segura en C++ moderno que resuelva el siguiente problema: Escribe una clase en C++ llamada Rectangulo que represente una figura geométrica. La clase debe tener dos atributos privados de tipo double: base y altura. Debe incluir un constructor para inicializar estos atributos, así como los métodos getters y setters correspondientes. Por último, implementa dos métodos públicos: double calcularArea() y double calcularPerimetro(). Debes cumplir estrictamente estos requisitos:
+Asegúrate de que no haya fugas de memoria (memory leaks) ni accesos inválidos.
+Aplica buenas prácticas de código limpio y control de errores.
+Devuelve ÚNICAMENTE el código de la función y los includes necesarios.
+No incluyas la función main() ni ningún texto explicativo.
+
+
