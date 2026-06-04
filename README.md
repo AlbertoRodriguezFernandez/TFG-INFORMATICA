@@ -20,7 +20,7 @@ Se han analizado **210 muestras de código** generadas bajo dos estrategias de *
 Para garantizar la total transparencia y reproducibilidad del experimento, los recursos técnicos están organizados en los siguientes directorios:
 
 - 📁 **`/dataset_ia`**: Contiene los 210 archivos fuente (`.cpp`) literales generados por los modelos. Están estructurados por bloque temático (Algoritmia, Estructuras de Datos, Punteros/Memoria Dinámica y Programación Orientada a Objetos) y por el nivel de instrucción recibido.
-- 📁 **`/tests_gtest`**: Incluye los 21 archivos de pruebas unitarias (`test_ejx.cpp`) programados con el *framework* Google Test, diseñados para validar la corrección lógica y atrapar posibles casos límite (*Edge Cases*).
+- 📁 **`/tests_gtest`**: Incluye los 20 archivos de pruebas unitarias (`test_ejx.cpp`) programados con el *framework* Google Test, diseñados para validar la corrección lógica y atrapar posibles casos límite (*Edge Cases*).
 - 📁 **`/resultados`**: Contiene el archivo de hoja de cálculo original (`.xlsx`) con el volcado bruto de las métricas obtenidas tras aplicar todas las herramientas de evaluación.
 
 ## 🛠️ Stack de Evaluación (Métricas)
