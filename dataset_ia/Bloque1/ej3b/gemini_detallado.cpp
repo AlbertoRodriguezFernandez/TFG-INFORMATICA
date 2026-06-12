@@ -1,32 +1,29 @@
 #include <stdexcept>
-#include <limits>
+#include <vector>
 
-/**
- * @brief Calcula el n-ésimo número de la serie de Fibonacci usando recursividad simple.
- * * @param n El índice en la serie de Fibonacci (basado en 0, donde fib(0)=0, fib(1)=1).
- * @return El n-ésimo número de Fibonacci.
- * @throws std::invalid_argument Si n es negativo.
- * @throws std::overflow_error Si se detecta un desbordamiento de entero.
- */
+// Calcula el n-ésimo número de Fibonacci de forma óptima y segura.
+// Complejidad temporal: O(n), Complejidad espacial: O(1)
 int fibonacci(int n) {
     if (n < 0) {
-        throw std::invalid_argument("El indice n no puede ser negativo.");
+        throw std::invalid_argument("El índice no puede ser negativo.");
     }
     
-    if (n == 0) {
-        return 0;
-    }
-    if (n == 1) {
-        return 1;
+    // El máximo n-ésimo número de Fibonacci que cabe en un int de 32 bits firmado es n = 46
+    if (n > 46) {
+        throw std::overflow_error("Desbordamiento de entero: el resultado excede el límite de 'int'.");
     }
 
-    int a = fibonacci(n - 1);
-    int b = fibonacci(n - 2);
+    if (n == 0) return 0;
+    if (n == 1) return 1;
 
-    // Control de desbordamiento (Overflow) antes de realizar la suma
-    if (a > std::numeric_limits<int>::max() - b) {
-        throw std::overflow_error("Desbordamiento de entero detectado al calcular Fibonacci.");
+    int previo = 0;
+    int actual = 1;
+
+    for (int i = 2; i <= n; ++i) {
+        int siguiente = previo + actual;
+        previo = actual;
+        actual = siguiente;
     }
 
-    return a + b;
+    return actual;
 }

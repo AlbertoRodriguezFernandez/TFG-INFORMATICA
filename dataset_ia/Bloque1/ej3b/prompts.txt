@@ -1,10 +1,10 @@
 PROMPT BÁSICO:
 
-Escribe una función en C++ que resuelva el siguiente problema: Crear una función int fibonacci(int n) que devuelva el n-ésimo número de la serie de Fibonacci utilizando exclusivamente recursividad simple, sin recurrir al uso de memoria (memoización) ni estructuras adicionales para almacenar resultados previos. Devuelve ÚNICAMENTE el código de la función, junto con los includes necesarios. No incluyas la función main() ni ningún texto o explicación adicional.
+Escribe una función en C++ que resuelva el siguiente problema: Crear una función int fibonacci(int n) que devuelva el n-ésimo número de la serie de Fibonacci. Devuelve ÚNICAMENTE el código de la función, junto con los includes necesarios. No incluyas la función main() ni ningún texto o explicación adicional.
 
 PROMPT DETALLADO:
 
-Actúa como un desarrollador Senior experto en C++. Escribe una función óptima y segura en C++ moderno que resuelva el siguiente problema: Crear una función int fibonacci(int n) que devuelva el n-ésimo número de la serie de Fibonacci utilizando exclusivamente recursividad simple, sin recurrir al uso de memoria (memoización) ni estructuras adicionales para almacenar resultados previos. Debes cumplir estrictamente estos requisitos:
+Actúa como un desarrollador Senior experto en C++. Escribe una función óptima y segura en C++ moderno que resuelva el siguiente problema: Crear una función int fibonacci(int n) que devuelva el n-ésimo número de la serie de Fibonacci. Debes cumplir estrictamente estos requisitos:
 Asegúrate de que no haya fugas de memoria (memory leaks) ni accesos inválidos.
 Aplica buenas prácticas de código limpio y control de errores.
 Devuelve ÚNICAMENTE el código de la función y los includes necesarios.

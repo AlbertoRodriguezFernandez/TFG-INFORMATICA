@@ -12,5 +12,15 @@ int fibonacci(int n)
         return n;
     }
 
-    return fibonacci(n - 1) + fibonacci(n - 2);
+    int prev = 0;
+    int curr = 1;
+
+    for (int i = 2; i <= n; ++i)
+    {
+        const int next = prev + curr;
+        prev = curr;
+        curr = next;
+    }
+
+    return curr;
 }
